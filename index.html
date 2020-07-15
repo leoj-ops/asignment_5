@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div>
+        <form action="number.php" method="POST">
+            Enter N1: <input type="number" name="N1"><br>
+            Enter N2: <input type="number" name="N2"><br>
+            <input type="Submit" value="Prime Nos in the range N1 and N2">
+        </form>
+    </div>
+    <div>
+        <h4>Plz enter the Product Details in the below form</h4>
+        <form action="add.php" method="POST">
+            Enter Product Id: <input type="text" name="productid"><br>
+            Enter Product Name: <input type="text" name="productname"><br>
+            Enter Product Price: <input type="text" name="productprice"><br>
+            Enter Product Description: <input type="text" name="productdescription"><br>
+            <input type="Submit" value="Add">
+        </form>
+        <form action="display.php" method="POST">
+            <input type="Submit" value="Display Table">
+        </form>
+    </div>
+    <div>
+        <h4>Plz enter the id of the product to be deleted</h4>
+        <form action="delete.php" method="POST">
+            Enter Product Id: <input type="text" name="productid"><br>
+            <input type="Submit" value="Delete">
+        </form>
+        <form action="display.php" method="POST">
+            <input type="Submit" value="Display Table">
+        </form>
+    </div>
+</body>
+</html>
